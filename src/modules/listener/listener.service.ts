@@ -11,7 +11,7 @@ export class ListenerService {
   }
 
   @OnEvent("test.created")
-  onCreated(payload){
-    console.log("fire worked", payload);
+  async onCreated(payload){
+    await console.log("fire worked", payload);
   }
 }
