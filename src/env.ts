@@ -6,7 +6,9 @@ export const DB = {
     options: {
       useCreateIndex: true,
       useNewUrlParser: true,
-      useFindAndModify: true
+      useFindAndModify: true,
+      user: "root",
+      pass: "password"
     }
   }
 };
